@@ -3,10 +3,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Quiz</title>
     <link rel="stylesheet" type="text/css" href="SCSS/main.scss">
+    <script src="js/index.js"></script>
 </head>
 <body>
-    <script src="js/index.js"></script>
+    <div class="container">
+        <div id="que-container" class="hide"></div>
+        <div id="questions">What is shinier than diamonds in the sky?</div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Not my future.</button>
+            <button class="btn">Maybe, diamonds?</button>
+            <button class="btn">Mr. Henrique's head.</button>
+            <button class="btn">Mr. Whalen's head.</button>
+            <button class="btn">Dwayne Johnson's head.</button>
+          </div>
+          <div id="control-buttons" class="control">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+            <button id="submit-btn" class="submit-btn btn">Submit</button>
+          </div>
+    </div> 
 </body>
 </html>
