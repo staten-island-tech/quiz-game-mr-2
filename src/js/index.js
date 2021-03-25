@@ -1,4 +1,5 @@
-console.log("connected");
-const startButton = document.getElementById('start-btn')
-const nextButton = document.getElementById('next-btn')
-const submitButton = document.getElementById('submit-btn')
+const startButton = document.getElementById("#start-btn");
+startButton.addEventListener("click", function (e) {
+  console.log(e.target);
+  console.log(e);
+});
