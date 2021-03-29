@@ -1,4 +1,4 @@
-const startButton = document.getElementById("#start-btn");
+/*const startButton = document.getElementById("#start-btn");
 startButton.addEventListener("click", function (e) {
   console.log(e.target);
   console.log(e);
@@ -12,4 +12,10 @@ const questions = [
     choices: "Not my future", "Maybe, diamonds?", "Mr.Henriques's head", "Mr. Whalen's head in a zoom meeting.", "Dwayne Johnson's head.",
     
   }
-];
+];*/
+
+let count = 0;
+function i() {
+  choices = document.getElementById("question");
+  if (count < choices.length) choices[count++].style.display = "question";
+}
