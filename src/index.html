@@ -5,31 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     <link rel="stylesheet" type="text/css" href="SCSS/main.scss">
-    
 </head>
 <body>
-  <div id="quiz"></div>
-<button id="submit">Submit Quiz</button>
-<div id="results"></div>
-    <script src="js/index.js"></script> 
+  <div class="container">
+    <div id="question-container" class="hide">
+    <div id="question">Question</div>
+    <div id="answer-buttons" class="btn-grid">
+      <button class="btn">Answer 1</button>
+      <button class="btn">Answer 2</button>
+      <button class="btn">Answer 3</button>
+      <button class="btn">Answer 4</button>
+    </div>
+    </div>
+  <div class="controls">
+      <button id="start-btn" class="start-btn btn">Start</button>
+      <button id="next-btn" class="next-btn btn hide">Next</button>
+  </div>
+  </div>
+  <script src="js/index.js"></script>
 </body>
 </html>
-<div class="container">
-  <div id="control-buttons" class="control">
-        <button id="start-btn" class="start-btn btn">Start</button>
-        <button id="next-btn" class="next-btn btn hide">Next</button>
-        <button id="submit-btn" class="submit-btn btn">Submit</button>
-      </div>
-  <div id = "question">
-    <div id="que-container" class="hide"></div>
-    <div id="questions">What is shinier than diamonds in the sky?</div>
-    <div id="answer-buttons" class="btn-grid">
-        <button class="btn">Not my future.</button>
-        <button class="btn">Maybe, diamonds?</button>
-        <button class="btn">Mr. Henrique's head.</button>
-        <button class="btn">Mr. Whalen's head in a zoom meeting.</button>
-        <button class="btn">Dwayne Johnson's head.</button>
-      </div>
-    </div>
-      
-</div>
