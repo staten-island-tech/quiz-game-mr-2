@@ -81,10 +81,10 @@ const questions = [
   {
     question: "What is shinier than diamonds in the sky?",
     answers: [
-      { text: "Not my future", correct: true },
-      { text: "Diamonds?", correct: false },
-      { text: "Mr. Henriques's head", correct: false },
-      { text: "Mr. Whalen's head in a zoom meeting.", correct: false },
+      { text: "Not my future", value: 1 },
+      { text: "Diamonds?", value: -1 },
+      { text: "Mr. Henriques's head", value: 1 },
+      { text: "Mr. Whalen's head in a zoom meeting.", value: -1 },
     ],
   },
 ];
