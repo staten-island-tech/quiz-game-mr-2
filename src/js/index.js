@@ -81,10 +81,91 @@ const questions = [
   {
     question: "What is shinier than diamonds in the sky?",
     answers: [
-      { text: "Not my future", value: 1 },
+      { text: "Not my future.", value: 1 },
       { text: "Diamonds?", value: -1 },
-      { text: "Mr. Henriques's head", value: 1 },
+      { text: "Mr. Henriques's head.", value: 1 },
       { text: "Mr. Whalen's head in a zoom meeting.", value: -1 },
+    ],
+  },
+  {
+    question: "Why is the Sky Blue?",
+    answers: [
+      { text: "The Smurfs live in the sky.", value: 1 },
+      { text: "Wavelenghts of light", value: -1 },
+      { text: "The Sun poops blue", value: 1 },
+      { text: "Because Blue finally found the clue.", value: -1 },
+    ],
+  },
+  {
+    question: "Why is putting 'milk or cereal first' something to debate?",
+    answers: [
+      { text: "I don't know, that's why I don't eat cereal.", value: 1 },
+      { text: "Does it really matter?", value: -1 },
+      { text: "Because people have nothing better to do.", value: 1 },
+      { text: "I dump them both together.", value: -1 },
+    ],
+  },
+  {
+    question: "What does life mean to you?",
+    answers: [
+      { text: "Crying", value: 1 },
+      { text: "My Birth Certificate", value: -1 },
+      { text: "Always Mid-life Crisis", value: 1 },
+      { text: "Idk, what is life really?", value: -1 },
+    ],
+  },
+  {
+    question: "What should you do when there is no electricity?",
+    answers: [
+      { text: "Is that even possible?", value: 1 },
+      { text: "Light a candle and zen., value: -1 },
+      { text: "I produce my own electricity.", value: 1 },
+      { text: "Break my leg and go to the hospital for free Wifi.", value: -1 },
+    ],
+  },
+  {
+    question: "Who created the English ?",
+    answers: [
+      { text: "The Smurfs live in the sky.", value: 1 },
+      { text: "Wavelenghts of light", value: -1 },
+      { text: "The Sun poops blue", value: 1 },
+      { text: "Because Blue finally found the clue.", value: -1 },
+    ],
+  },
+  {
+    question: "Why is the Sky Blue?",
+    answers: [
+      { text: "The Smurfs live in the sky.", value: 1 },
+      { text: "Wavelenghts of light", value: -1 },
+      { text: "The Sun poops blue", value: 1 },
+      { text: "Because Blue finally found the clue.", value: -1 },
+    ],
+  },
+  {
+    question: "Why is the Sky Blue?",
+    answers: [
+      { text: "The Smurfs live in the sky.", value: 1 },
+      { text: "Wavelenghts of light", value: -1 },
+      { text: "The Sun poops blue", value: 1 },
+      { text: "Because Blue finally found the clue.", value: -1 },
+    ],
+  },
+  {
+    question: "Why is the Sky Blue?",
+    answers: [
+      { text: "The Smurfs live in the sky.", value: 1 },
+      { text: "Wavelenghts of light", value: -1 },
+      { text: "The Sun poops blue", value: 1 },
+      { text: "Because Blue finally found the clue.", value: -1 },
+    ],
+  },
+  {
+    question: "Why is the Sky Blue?",
+    answers: [
+      { text: "The Smurfs live in the sky.", value: 1 },
+      { text: "Wavelenghts of light", value: -1 },
+      { text: "The Sun poops blue", value: 1 },
+      { text: "Because Blue finally found the clue.", value: -1 },
     ],
   },
 ];
