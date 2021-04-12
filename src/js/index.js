@@ -142,30 +142,12 @@ const questions = [
     ],
   },
   {
-    question: "Why is the Sky Blue?",
+    question: "What do you want to be?",
     answers: [
-      { text: "The Smurfs live in the sky.", value: 1 },
-      { text: "Wavelenghts of light", value: -1 },
-      { text: "The Sun poops blue", value: 1 },
-      { text: "Because Blue finally found the clue.", value: -1 },
-    ],
-  },
-  {
-    question: "Why is the Sky Blue?",
-    answers: [
-      { text: "The Smurfs live in the sky.", value: 1 },
-      { text: "Wavelenghts of light", value: -1 },
-      { text: "The Sun poops blue", value: 1 },
-      { text: "Because Blue finally found the clue.", value: -1 },
-    ],
-  },
-  {
-    question: "Why is the Sky Blue?",
-    answers: [
-      { text: "The Smurfs live in the sky.", value: 1 },
-      { text: "Wavelenghts of light", value: -1 },
-      { text: "The Sun poops blue", value: 1 },
-      { text: "Because Blue finally found the clue.", value: -1 },
+      { text: "Robert Downey Jr.", value: 1 },
+      { text: "My mom told me I can't do anything in life right.", value: -1 },
+      { text: "A twig.", value: 1 },
+      { text: "What a joke.", value: -1 },
     ],
   },
 ];
