@@ -118,27 +118,27 @@ const questions = [
     question: "What should you do when there is no electricity?",
     answers: [
       { text: "Is that even possible?", value: 1 },
-      { text: "Light a candle and zen., value: -1 },
+      { text: "Light a candle and zen.", value: -1 },
       { text: "I produce my own electricity.", value: 1 },
       { text: "Break my leg and go to the hospital for free Wifi.", value: -1 },
     ],
   },
   {
-    question: "Who created the English ?",
+    question: "Who created the English?",
     answers: [
-      { text: "The Smurfs live in the sky.", value: 1 },
-      { text: "Wavelenghts of light", value: -1 },
-      { text: "The Sun poops blue", value: 1 },
-      { text: "Because Blue finally found the clue.", value: -1 },
+      { text: "Ziegen", value: 1 },
+      { text: "MichealAnglo Saxons", value: -1 },
+      { text: "The Donkeys.", value: 1 },
+      { text: "I did, I created Engide.", value: -1 },
     ],
   },
   {
-    question: "Why is the Sky Blue?",
+    question: "Why did you go to the doctor?",
     answers: [
-      { text: "The Smurfs live in the sky.", value: 1 },
-      { text: "Wavelenghts of light", value: -1 },
-      { text: "The Sun poops blue", value: 1 },
-      { text: "Because Blue finally found the clue.", value: -1 },
+      { text: "I wanted to taste Lysol", value: 1 },
+      { text: "Didn't eat the apple.", value: -1 },
+      { text: "Did a backflip but didn't land on my feet.", value: 1 },
+      { text: "The doctor gives me free lollipop.", value: -1 },
     ],
   },
   {
