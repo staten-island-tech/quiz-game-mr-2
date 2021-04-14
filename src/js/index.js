@@ -168,4 +168,31 @@ const questions = [
       { text: "To become rich by making sad sandwiches", value: -1 },
     ],
   },
+  {
+    question: "Who is Darth Vader",
+    answers: [
+      { text: "My dentist.", value: 1 },
+      { text: "Isn't that the guy from the Masked Singer?", value: -1 },
+      { text: "My dad who didn't come back after leaving to get milk.", value: 1 },
+      { text: "George Washington, that you?", value: -1 },
+    ],
+  },
+  {
+    question: "Who's that Pokemon?",
+    answers: [
+      { text: "Micheal Whalenasaur.", value: 1 },
+      { text: "A turtle who farts fire.", value: -1 },
+      { text: "Boris Johnson's hairstylist.", value: 1 },
+      { text: "Spongebob", value: -1 },
+    ],
+  },
+  {
+    question: "Who is Peppa Pig?",
+    answers: [
+      { text: "The Queen of England?", value: 1 },
+      { text: "An English Ambassador", value: -1 },
+      { text: "Better than me.", value: 1 },
+      { text: "Someone who should be in my oven.", value: -1 },
+    ],
+  },
 ];
