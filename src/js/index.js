@@ -124,7 +124,7 @@ const questions = [
     ],
   },
   {
-    question: "Who created the English?",
+    question: "Who created the English language?",
     answers: [
       { text: "Ziegen", value: 1 },
       { text: "MichealAnglo Saxons", value: -1 },
@@ -148,6 +148,24 @@ const questions = [
       { text: "My mom told me I can't do anything in life right.", value: -1 },
       { text: "A twig.", value: 1 },
       { text: "What a joke.", value: -1 },
+    ],
+  },
+  {
+    question: "Why did you go to the doctor?",
+    answers: [
+      { text: "I wanted to taste Lysol", value: 1 },
+      { text: "Didn't eat the apple.", value: -1 },
+      { text: "Did a backflip but didn't land on my feet.", value: 1 },
+      { text: "The doctor gives me free lollipop.", value: -1 },
+    ],
+  },
+  {
+    question: "Why did you go to the doctor?",
+    answers: [
+      { text: "I wanted to taste Lysol", value: 1 },
+      { text: "Didn't eat the apple.", value: -1 },
+      { text: "Did a backflip but didn't land on my feet.", value: 1 },
+      { text: "The doctor gives me free lollipop.", value: -1 },
     ],
   },
 ];
