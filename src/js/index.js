@@ -151,21 +151,21 @@ const questions = [
     ],
   },
   {
-    question: "Why did you go to the doctor?",
+    question: "Who are you?",
     answers: [
-      { text: "I wanted to taste Lysol", value: 1 },
-      { text: "Didn't eat the apple.", value: -1 },
-      { text: "Did a backflip but didn't land on my feet.", value: 1 },
-      { text: "The doctor gives me free lollipop.", value: -1 },
+      { text: "Spiderman's long lost sock.", value: 1 },
+      { text: "Am I not a child with big brain?", value: -1 },
+      { text: "A piece of bread.", value: 1 },
+      { text: "An antique underwear.", value: -1 },
     ],
   },
   {
-    question: "Why did you go to the doctor?",
+    question: "Why would you work at McDonalds?",
     answers: [
-      { text: "I wanted to taste Lysol", value: 1 },
-      { text: "Didn't eat the apple.", value: -1 },
-      { text: "Did a backflip but didn't land on my feet.", value: 1 },
-      { text: "The doctor gives me free lollipop.", value: -1 },
+      { text: "To become a famous tiktoker by putting ketchup on bread.", value: 1 },
+      { text: "To repair their ice-cream machine.", value: -1 },
+      { text: "To steal pickles for my goat.", value: 1 },
+      { text: "To become rich by making sad sandwiches", value: -1 },
     ],
   },
 ];
