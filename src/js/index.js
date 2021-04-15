@@ -4,7 +4,6 @@ const questionContainerElement = document.getElementById("question-container");
 const questionElement = document.getElementById("question");
 const answerButtonsElement = document.getElementById("answer-buttons");
 
-
 let shuffledQuestions, currentQuestionIndex;
 
 startButton.addEventListener("click", startGame);
@@ -92,7 +91,7 @@ const questions = [
     question: "Why is the Sky Blue?",
     answers: [
       { text: "The Smurfs live in the sky.", correct: false },
-      { text: "Wavelenghts of light", correct: false},
+      { text: "Wavelenghts of light", correct: false },
       { text: "The Sun poops blue", correct: false },
       { text: "Because Blue finally found the clue.", correct: true },
     ],
@@ -121,7 +120,10 @@ const questions = [
       { text: "Is that even possible?", correct: false },
       { text: "Light a candle and zen.", correct: false },
       { text: "I produce my own electricity.", correct: true },
-      { text: "Break my leg and go to the hospital for free Wifi.", correct: true },
+      {
+        text: "Break my leg and go to the hospital for free Wifi.",
+        correct: true,
+      },
     ],
   },
   {
@@ -146,7 +148,10 @@ const questions = [
     question: "What do you want to be?",
     answers: [
       { text: "Robert Downey Jr.", correct: true },
-      { text: "My mom told me I can't do anything in life right.", correct: true },
+      {
+        text: "My mom told me I can't do anything in life right.",
+        correct: true,
+      },
       { text: "A twig.", correct: false },
       { text: "What a joke.", correct: false },
     ],
@@ -156,7 +161,10 @@ const questions = [
     answers: [
       { text: "My dentist.", correct: false },
       { text: "Isn't that the guy from the Masked Singer?", correct: false },
-      { text: "My dad who didn't come back after leaving to get milk.", correct: true },
+      {
+        text: "My dad who didn't come back after leaving to get milk.",
+        correct: true,
+      },
       { text: "George Washington, that you?", correct: false },
     ],
   },
@@ -208,11 +216,16 @@ const questions = [
   {
     question: "Why would you work at McDonalds?",
     answers: [
-      { text: "To become a famous tiktoker by putting ketchup on bread.", correct: false },
+      {
+        text: "To become a famous tiktoker by putting ketchup on bread.",
+        correct: false,
+      },
       { text: "To repair their ice-cream machine.", correct: true },
       { text: "To steal pickles for my goat.", correct: false },
-      { text: "To become Jeff Bezos rich by making sad sandwiches", correct: false },
+      {
+        text: "To become Jeff Bezos rich by making sad sandwiches",
+        correct: false,
+      },
     ],
   },
-
 ];
