@@ -151,24 +151,6 @@ const questions = [
     ],
   },
   {
-    question: "Who are you?",
-    answers: [
-      { text: "Spiderman's long lost sock.", value: 1 },
-      { text: "Am I not a child with big brain?", value: -1 },
-      { text: "A piece of bread.", value: 1 },
-      { text: "An antique underwear.", value: -1 },
-    ],
-  },
-  {
-    question: "Why would you work at McDonalds?",
-    answers: [
-      { text: "To become a famous tiktoker by putting ketchup on bread.", value: 1 },
-      { text: "To repair their ice-cream machine.", value: -1 },
-      { text: "To steal pickles for my goat.", value: 1 },
-      { text: "To become rich by making sad sandwiches", value: -1 },
-    ],
-  },
-  {
     question: "Who is Darth Vader",
     answers: [
       { text: "My dentist.", value: 1 },
@@ -195,4 +177,41 @@ const questions = [
       { text: "Someone who should be in my oven.", value: -1 },
     ],
   },
+  {
+    question: "Who sang 'Waka Waka' at the 2010 World Cup?",
+    answers: [
+      { text: "Shrek ft.Ferb", value: 1 },
+      { text: "Tsamina mina zangalewa", value: -1 },
+      { text: "Rebecca Black", value: 1 },
+      { text: "Bledmir Poutin", value: -1 },
+    ],
+  },
+  {
+    question: "What is America's favorite food?",
+    answers: [
+      { text: "Mass produced grass.", value: 1 },
+      { text: "Hot Dogs?", value: -1 },
+      { text: "Anything that leads to obesity.", value: 1 },
+      { text: "Daddy Pig", value: -1 },
+    ],
+  },
+  {
+    question: "Who are you?",
+    answers: [
+      { text: "Spiderman's long lost sock.", value: 1 },
+      { text: "Am I not a child with big brain?", value: -1 },
+      { text: "A piece of bread.", value: 1 },
+      { text: "An antique underwear.", value: -1 },
+    ],
+  },
+  {
+    question: "Why would you work at McDonalds?",
+    answers: [
+      { text: "To become a famous tiktoker by putting ketchup on bread.", value: 1 },
+      { text: "To repair their ice-cream machine.", value: -1 },
+      { text: "To steal pickles for my goat.", value: 1 },
+      { text: "To become rich by making sad sandwiches", value: -1 },
+    ],
+  },
+
 ];
