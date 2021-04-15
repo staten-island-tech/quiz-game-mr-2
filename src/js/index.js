@@ -22,10 +22,10 @@ function startGame() {
   setNextQuestion();
 }
 
-/*function setNextQuestion() {
+function setNextQuestion() {
   resetState();
   showQuestion(shuffledQuestions[currentQuestionIndex]);
-}*/
+}
 
 function showQuestion(question) {
   questionElement.innerText = question.question;
