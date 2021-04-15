@@ -25,13 +25,13 @@ body {
   background-color: hsl(var(--hue), 100%, 20%);
 }
 
-/*body.correct {
+body.correct {
   --hue: var(--hue-correct);
 }
 
 body.wrong {
   --hue: var(--hue-wrong);
-}*/
+}
 
 .container {
   width: 80rem;
@@ -63,14 +63,14 @@ body.wrong {
   border-color: #000;
 }
 
-/*.btn.correct {
+.btn.correct {
   --hue: var(--hue-correct);
   color: #000;
 }
 .btn.wrong {
   --hue: var(--hue-wrong);
 }
-*/
+
 .start-btn .next-btn {
   font-size: 1.5rem;
   font-weight: bold;
