@@ -60,15 +60,16 @@ body.wrong {
 }
 
 .btn:hover {
-  border-color: #000;
+  border-color: rgb(245, 242, 242);
 }
 
 .btn.correct {
   --hue: var(--hue-correct);
-  color: #000;
+  color: greenyellow;
 }
 .btn.wrong {
   --hue: var(--hue-wrong);
+  color: red;
 }
 
 .start-btn .next-btn {
