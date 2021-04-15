@@ -208,10 +208,10 @@ const questions = [
   {
     question: "Why would you work at McDonalds?",
     answers: [
-      { text: "To become a famous tiktoker by putting ketchup on bread.", correct: true },
+      { text: "To become a famous tiktoker by putting ketchup on bread.", correct: false },
       { text: "To repair their ice-cream machine.", correct: true },
-      { text: "To steal pickles for my goat.", correct: true },
-      { text: "To become Jeff Bezos rich by making sad sandwiches", correct: true },
+      { text: "To steal pickles for my goat.", correct: false },
+      { text: "To become Jeff Bezos rich by making sad sandwiches", correct: false },
     ],
   },
 
