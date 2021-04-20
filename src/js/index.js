@@ -12,11 +12,11 @@ nextButton.addEventListener("click", () => {
   setNextQuestion();
 });
 
-const SCORE_POINTS = 100
+const SCORE_POINTS = 100;
 
 function startGame() {
   //console.log("Started");
-  score = 0
+  score = 0;
   startButton.classList.add("hide");
   shuffledQuestions = questions.sort(() => Math.random() - 0.5);
   currentQuestionIndex = 0;
@@ -51,15 +51,18 @@ function resetState() {
   }
 }
 
-
 function selectAnswer(e) {
   const selectedButton = e.target;
   const correct = selectedButton.dataset.correct;
   setStatusClass(document.body, correct);
   Array.from(answerButtonsElement.children).forEach((button) => {
     setStatusClass(button, button.dataset.correct);
-    if (classToApply === 'correct') {
-      incrementScore(SCORE_POINTS)
+    if (classToApply === "correct") {
+      incrementScore(SCORE_POINTS);
+    } else {
+      if (classToApply === "wrong") {
+        incrementScore();
+      }
     }
   });
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
