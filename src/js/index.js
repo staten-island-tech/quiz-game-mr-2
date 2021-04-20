@@ -1,4 +1,4 @@
-import { questions } from "./questions.js";
+import { questions } from "./questions";
 
 const startButton = document.getElementById("start-btn");
 const nextButton = document.getElementById("next-btn");
@@ -14,11 +14,11 @@ nextButton.addEventListener("click", () => {
   setNextQuestion();
 });
 
-const SCORE_POINTS = 100;
+const scorePoints = 100;
 
 function startGame() {
   //console.log("Started");
-  score = 0;
+  scorePoints = 0;
   startButton.classList.add("hide");
   shuffledQuestions = questions.sort(() => Math.random() - 0.5);
   currentQuestionIndex = 0;
@@ -60,10 +60,10 @@ function selectAnswer(e) {
   Array.from(answerButtonsElement.children).forEach((button) => {
     setStatusClass(button, button.dataset.correct);
     if (classToApply === "correct") {
-      incrementScore(SCORE_POINTS);
+      incrementScore(scorePoints);
     } else {
       if (classToApply === "wrong") {
-        incrementScore();
+        incrementScore(0);
       }
     }
   });
@@ -88,6 +88,3 @@ function clearStatusClass(element) {
   element.classList.remove("correct");
   element.classList.remove("wrong");
 }
-
-export function questions(text);
-
