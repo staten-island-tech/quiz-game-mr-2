@@ -157,7 +157,7 @@ const questions = [
     ],
   },
   {
-    question: "Who is Darth Vader",
+    question: "Who is Darth Vader?",
     answers: [
       { text: "My dentist.", correct: false },
       { text: "Isn't that the guy from the Masked Singer?", correct: false },
