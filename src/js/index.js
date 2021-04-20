@@ -90,7 +90,7 @@ const questions = [
     answers: [
       { text: "Not my future.", correct: true },
       { text: "Diamonds?", correct: false },
-      { text: "Mr. Henriques's head.", correct: \false },
+      { text: "Mr. Henriques's head.", correct: false },
       { text: "Mr. Whalen's head in a zoom meeting.", correct: false },
     ],
   },
