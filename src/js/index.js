@@ -83,8 +83,8 @@ const questions = [
     answers: [
       { text: "Not my future.", correct: true },
       { text: "Diamonds?", correct: false },
-      { text: "Mr. Henriques's head.", correct: true },
-      { text: "Mr. Whalen's head in a zoom meeting.", correct: true },
+      { text: "Mr. Henriques's head.", correct: \false },
+      { text: "Mr. Whalen's head in a zoom meeting.", correct: false },
     ],
   },
   {
@@ -99,7 +99,7 @@ const questions = [
   {
     question: "Why is putting 'milk or cereal first' something to debate?",
     answers: [
-      { text: "I don't know, that's why I don't eat cereal.", correct: true },
+      { text: "I don't know, that's why I don't eat cereal.", correct: false },
       { text: "Does it really matter?", correct: false },
       { text: "Because people have nothing better to do.", correct: true },
       { text: "I dump them both together.", correct: false },
@@ -122,7 +122,7 @@ const questions = [
       { text: "I produce my own electricity.", correct: true },
       {
         text: "Break my leg and go to the hospital for free Wifi.",
-        correct: true,
+        correct: false,
       },
     ],
   },
@@ -131,7 +131,7 @@ const questions = [
     answers: [
       { text: "Ziegen", correct: true },
       { text: "MichealAnglo Saxons", correct: false },
-      { text: "The Donkeys.", correct: true },
+      { text: "The Donkeys.", correct: false },
       { text: "I did, I created Engide.", correct: false },
     ],
   },
@@ -141,13 +141,13 @@ const questions = [
       { text: "I wanted to taste Lysol", correct: true },
       { text: "Didn't eat the apple.", correct: false },
       { text: "Did a backflip but didn't land on my feet.", correct: false },
-      { text: "The doctor gives me free lollipop.", correct: true },
+      { text: "The doctor gives me free lollipop.", correct: false },
     ],
   },
   {
     question: "What do you want to be?",
     answers: [
-      { text: "Robert Downey Jr.", correct: true },
+      { text: "Robert Downey Jr.", correct: false },
       {
         text: "My mom told me I can't do anything in life right.",
         correct: true,
@@ -171,7 +171,7 @@ const questions = [
   {
     question: "Who's that Pokemon?",
     answers: [
-      { text: "Micheal Whalenasaur.", correct: true },
+      { text: "Micheal Whalenasaur.", correct: false },
       { text: "A turtle who farts fire.", correct: false },
       { text: "Boris Johnson's hairstylist.", correct: true },
       { text: "Spongebob", correct: false },
@@ -181,15 +181,15 @@ const questions = [
     question: "Who is Peppa Pig?",
     answers: [
       { text: "The Queen of England?", correct: true },
-      { text: "An English Ambassador", correct: true },
-      { text: "Better than me.", correct: true },
+      { text: "An English Ambassador", correct: false },
+      { text: "Better than me.", correct: false },
       { text: "Someone who should be in my oven.", correct: false },
     ],
   },
   {
     question: "Who sang 'Waka Waka' at the 2010 World Cup?",
     answers: [
-      { text: "Shrek ft.Ferb", correct: true },
+      { text: "Shrek ft.Ferb", correct: false },
       { text: "Tsamina mina zangalewa", correct: false },
       { text: "Rebecca Black", correct: false },
       { text: "Bledmir Poutin", correct: true },
@@ -198,7 +198,7 @@ const questions = [
   {
     question: "What is America's favorite food?",
     answers: [
-      { text: "Mass produced grass.", correct: true },
+      { text: "Mass produced grass.", correct: false },
       { text: "Hot Dogs?", correct: false },
       { text: "Anything that leads to obesity.", correct: true },
       { text: "Daddy Pig", correct: false },
@@ -209,7 +209,7 @@ const questions = [
     answers: [
       { text: "Spiderman's long lost sock.", correct: true },
       { text: "Am I not a child with big brain?", correct: false },
-      { text: "A piece of bread.", correct: true },
+      { text: "A piece of bread.", correct: false },
       { text: "An antique underwear.", correct: false },
     ],
   },
