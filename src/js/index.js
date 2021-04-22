@@ -30,6 +30,7 @@ function setNextQuestion() {
 }
 
 function showQuestion(question) {
+  let displayScore = document.getElementById("Score");
   questionElement.innerText = question.question;
   question.answers.forEach((answer) => {
     const button = document.createElement("button");
@@ -40,6 +41,12 @@ function showQuestion(question) {
     }
     button.addEventListener("click", selectAnswer);
     answerButtonsElement.appendChild(button);
+    if (answer.correct === "correct") {
+      displayScore += 10;
+      displayScore.innerText = "10";
+    } else {
+      displayScore += 0;
+    }
   });
 }
 
