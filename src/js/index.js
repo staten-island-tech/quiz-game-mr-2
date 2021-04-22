@@ -5,7 +5,7 @@ const nextButton = document.getElementById("next-btn");
 const questionContainerElement = document.getElementById("question-container");
 const questionElement = document.getElementById("question");
 const answerButtonsElement = document.getElementById("answer-buttons");
-const scorePoints = document.getElementById("Score");
+const displayScore = document.getElementById("Score");
 
 let shuffledQuestions, currentQuestionIndex;
 
@@ -30,7 +30,6 @@ function setNextQuestion() {
 }
 
 function showQuestion(question) {
-  let displayScore = document.getElementById("Score");
   questionElement.innerText = question.question;
   question.answers.forEach((answer) => {
     const button = document.createElement("button");
@@ -41,12 +40,6 @@ function showQuestion(question) {
     }
     button.addEventListener("click", selectAnswer);
     answerButtonsElement.appendChild(button);
-    if (answer.correct === "correct") {
-      displayScore += 10;
-      displayScore.innerText = "10";
-    } else {
-      displayScore += 0;
-    }
   });
 }
 
@@ -88,6 +81,7 @@ function setStatusClass(element, correct) {
   clearStatusClass(element);
   if (correct) {
     element.classList.add("correct");
+    displayScore += 10;
   } else {
     element.classList.add("wrong");
   }
