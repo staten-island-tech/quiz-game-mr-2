@@ -1,11 +1,12 @@
 import { questions } from "./questions";
 
+//const container = document.getElementsByClassName("container");
 const startButton = document.getElementById("start-btn");
 const nextButton = document.getElementById("next-btn");
 const questionContainerElement = document.getElementById("question-container");
 const questionElement = document.getElementById("question");
 const answerButtonsElement = document.getElementById("answer-buttons");
-const displayScore = document.getElementById("Score");
+const displayScore = document.getElementById("score");
 
 let shuffledQuestions, currentQuestionIndex;
 
@@ -73,15 +74,23 @@ function selectAnswer(e) {
     //startButton.classList.remove("hide");
     startButton.innerText = "Submit";
     startButton.classList.remove("hide");
-    //startButton.addEventListener("click", displayResult);
+    startButton.addEventListener("click", () => {
+      displayScore.classList.remove("hide");
+      displayScore.innerText =
+        "Ok Let's Admit it, all of these answers can make you immature.";
+    });
   }
 }
+
+/*startButton.innerText = "Restart";
+      startButton.addEventListener("click", () => {
+        displayScore.classList.add("hide");
+      };*/
 
 function setStatusClass(element, correct) {
   clearStatusClass(element);
   if (correct) {
     element.classList.add("correct");
-    displayScore += 10;
   } else {
     element.classList.add("wrong");
   }
